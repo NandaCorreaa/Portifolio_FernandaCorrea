@@ -3,7 +3,7 @@ import PropProjeto from './PropProjeto';
 import Barbie from './imgs/Barbie.png'
 import Calculadora from './imgs/CalculadoraReact.png'
 import Guardioes from './imgs/Guardioes.png'
-import Contador from './imgs/Contador.png'
+import SuperMario from './imgs/SuperMario.png'
 import FundoTerceiraSessao from './imgs/FundoTerceiraSessao.png'
 
 
@@ -13,9 +13,9 @@ function SectionProjetos(){
             <h1>Meus Projetos</h1>
             <Div>
                 <PropProjeto img={Barbie} altImg="Captura de tela do meu site da Barbie" nomeDoProjeto="BARBIE" tecnologias="HTML - CSS" link="https://github.com/NandaCorreaa/BARBIE_Project" linkProjeto="https://nandacorreaa.github.io/BARBIE_Project/"/>
+                <PropProjeto img={SuperMario} altImg="Captura de tela do meu jogo do Super Mario" nomeDoProjeto="SUPER MARIO MINIGAME" tecnologias="HTML - CSS - JAVASCRIPT" link="https://github.com/NandaCorreaa/SuperMario-MiniGame" linkProjeto="https://nandacorreaa.github.io/SuperMario-MiniGame/" />
                 <PropProjeto img={Calculadora} altImg="Captura de tela do meu site da Calculadora" nomeDoProjeto="CALCULADORA REACT" tecnologias="HTML - REACT.JS - STYLED-COMPONENTS" link="https://github.com/NandaCorreaa/Calculadora_React" linkProjeto="https://calculadora-react-a55n-k1f2dfqlt-fernandas-projects-7fd83f4a.vercel.app/"/>
                 <PropProjeto img={Guardioes} altImg="Captura de tela do meu site dos Guardiões da Galáxia" nomeDoProjeto="GUARDIÕES DA GALÁXIA" tecnologias="HTML - CSS" link="https://github.com/NandaCorreaa/Guardians_of_the_Galaxy-Project" linkProjeto="https://nandacorreaa.github.io/Guardians_of_the_Galaxy-Project/"/>
-                <PropProjeto img={Contador} altImg="Captura de tela do meu site do Contador" nomeDoProjeto="CONTADOR" tecnologias="HTML - CSS - REACT.JS" link="https://github.com/NandaCorreaa/Contador_Project" />
 
             </Div>
         </TerceiraSessao>

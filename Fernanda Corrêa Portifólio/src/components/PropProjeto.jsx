@@ -38,7 +38,7 @@ background-color: rgba(0, 0, 0, 0.345);
 }
 `
 const Site = styled.img`
-    width: 20vw;
+    width: 22vw;
     border-radius: 6px;
     
     &:hover{
@@ -77,7 +77,7 @@ const H2 = styled.h2`
 `
 
 const P = styled.p`
-font-size: 1.4rem;
+font-size: 1.09rem;
 text-align: center;
 @media(max-width: 420px){
     font-size: 1.08rem;
